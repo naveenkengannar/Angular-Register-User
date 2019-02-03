@@ -1,0 +1,5 @@
+1. Improve the signup form with nice bootstrap 
+2. Add validations and handle them in good manner
+3. In the API change the column width of FName and LName to 50
+4. Host the API and make it secured
+5. Add proper error handling and toast messages

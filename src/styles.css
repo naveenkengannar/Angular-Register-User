@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    margin: 0;
+    background-color: #7599b3;
+}
+
+.card-header {
+    padding: 2rem;
+    margin: 0;
+    color: #fff;
+    background-color: #38547b;
+    font-size: 3.5rem;
+    text-align: center;
+}
+.form-row{
+    background-color: #d3d3d3;
+    font-size: 1.8rem;
+}
+input {
+   
+    outline: none;
+}
+
+.ng-touched.ng-invalid {
+    border-bottom-color: #e93e63;
+    box-shadow: 0 1px 0 0 #e93e63;
+}
+
+/* TOASTR BUGFIX */
+#toast-container > div {
+    opacity: 1;
+  }
+  .toast {
+    font-size: initial !important;
+    border: initial !important;
+    backdrop-filter: blur(0) !important;
+  }
+  .toast-success {
+    background-color: #51A351 !important;
+  }
+  .toast-error {
+    background-color: #BD362F !important;
+  }
+  .toast-info {
+    background-color: #2F96B4 !important;
+  }
+  .toast-warning {
+    background-color: #F89406 !important;
+  }
